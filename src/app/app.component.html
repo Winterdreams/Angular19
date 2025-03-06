@@ -1,0 +1,12 @@
+<main class="main">
+    <div class="toolbar">
+        <a routerLink="/">Home</a>
+        <a routerLink="second">Second</a>
+        <a href="#" (click)="$event.preventDefault(); goToContact()">Contact Us</a>
+        <a routerLink="">Home</a>
+    </div>
+    <!-- <router-outlet></router-outlet> -->
+     <div>
+        <router-outlet></router-outlet>
+     </div>
+</main>

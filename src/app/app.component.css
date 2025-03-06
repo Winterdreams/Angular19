@@ -1,0 +1,33 @@
+main {
+    align-items: center;
+    padding-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.toolbar {
+    display:flex;
+    justify-content: left;
+    background-color: #333;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.toolbar a:hover {
+    background-color: #f1c40f;
+    color: #333;
+    transform: scale(1.05);
+}
+
+.toolbar a:focus {
+    outline: none;
+}
